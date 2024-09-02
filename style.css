@@ -1,0 +1,141 @@
+body {
+    font-size: 11px;
+    font-size: large;
+    color: #ffffff;
+    background-color: #1F1F1F;
+    background-size: cover;
+}
+
+.bttn {
+    background-color: #D2FF5E;
+    border-radius: 999999999px;
+    width: 100px;
+    height: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    position: fixed;
+    top: 90%;
+    left: 5%;
+    z-index: 1000;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 45px;
+    position: absolute;
+    top: auto;
+    left: 45%;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 
+        1px 1px 30px #003D6C,  
+        -1px -1px 30px #003D6C, 
+        1px -1px 30px #003D6C, 
+        -1px 1px 30px #003D6C;
+}
+
+@keyframes color-change {
+    0% {
+      color: #ffffff;
+    }
+
+    10% {
+        color: #984ed9ad;
+      }
+  
+    50% {
+      color: red;
+    }
+
+    75% {
+        color: #3cff00;
+      }
+  
+    100% {
+      color: rgb(255, 255, 255);
+    }
+}
+
+h1:hover {
+    animation: color-change 5s infinite;
+}
+
+
+.img1 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    border-radius: 10px;
+    box-shadow: 
+    1px 1px 10px #c3bbbb,  
+    -1px -1px 10px #a88f8f, 
+    1px -1px 10px #a38585, 
+    -1px 1px 10px #2c2a2a;
+}
+.img2 {
+    width: 13%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    border-radius: 10px;
+    box-shadow: 
+    1px 1px 10px #927c7c,  
+    -1px -1px 10px #343232, 
+    1px -1px 10px #b37272, 
+    -1px 1px 10px #ca7b7b;
+}
+
+.img3 {
+    width: 13%;
+    height: auto;
+    position: absolute;
+    top: 78%;
+    left: 4%;
+    border-radius: 10px;
+    box-shadow: 
+    1px 1px 10px #635959,  
+    -1px -1px 10px #c6a5a5, 
+    1px -1px 10px #c75353, 
+    -1px 1px 10px #5a4b4b;
+}
+
+.img4 {
+    width: 13%;
+    height: auto;
+    position: absolute;
+    top: 110%;
+    left: 4%;
+    border-radius: 10px;
+    box-shadow: 
+    1px 1px 10px #ff0000,  
+    -1px -1px 10px #5a5454, 
+    1px -1px 10px #8f6767, 
+    -1px 1px 10px #ca6060;
+}
+
+ul {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    font-family: 'Inter', sans-serif;
+}
+
+li {
+    margin-bottom: 40px;
+    text-shadow: 
+        1px 1px 10px black,  
+        -1px -1px 10px black, 
+        1px -1px 10px black, 
+        -1px 1px 10px black;
+}
+
+
+
+.hvdrm {
+    position: absolute;
+    top: 150%;
+    left: 23%;
+}  
+
